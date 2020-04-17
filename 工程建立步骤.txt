@@ -1,0 +1,12 @@
+1.打开MDK，Project-new uVision Project
+2.新建工程名，建立cmsis、Library、Startup、User、Source几个文件夹
+3.在文件夹中分别添加对应且必须的文件
+4.Option:
+	Devide，选择对应的芯片
+	Target, Use MicroLIB
+	Output, Select Folder for Objects...，选择obj文件夹，将编译生成的
+中间文件，放至obj下。
+	C/C++, Define: STM32F10X_HD,USE_STDPERIPH_DRIVER
+	       Include Paths，库文件路径
+	Debug, 选择合适的调试工具！
+	Utilities, 设置调试工具
